@@ -220,3 +220,34 @@ nav li a{
     margin-bottom: 50px;
 }
 
+/* footer style */
+
+.footer{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 100px;
+    padding: 130px 230px;
+    border-radius: 10px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+input[type="text"] , input[type="email"], footer textarea {
+    height: 64px;
+    background-color: white;
+    color: #000;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom:24px ;
+    font-size: 16px;
+}
+
+.footer-logo-img{
+    margin-top: 20px;
+}
