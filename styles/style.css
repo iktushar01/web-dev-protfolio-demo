@@ -251,3 +251,53 @@ input[type="text"] , input[type="email"], footer textarea {
 .footer-logo-img{
     margin-top: 20px;
 }
+.hide{
+    display: none;
+}
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+    .skills-container, 
+    .resume-container, 
+    footer, 
+    .about-items,
+    nav,
+    nav > ul
+    {
+       
+        flex-direction: column;}
+        .resume-container{
+            padding: 20px;
+        }
+
+        .banner{
+            display: flex;
+            flex-direction: column;
+            margin:  20px;
+        }
+        .header{
+            background-image:none ;
+        }
+
+        .footer, .about-section {
+            padding: 20px;     
+        }
+
+        .footer-column{
+            width: 100%;
+        }
+        .about-items{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .banner-profile-pic{
+            width: 100%;
+        }
+        .btn-primary{
+            margin-bottom: 5px;
+            
+        }
+}
+
